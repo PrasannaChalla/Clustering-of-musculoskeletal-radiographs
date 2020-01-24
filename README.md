@@ -1,1 +1,3 @@
-# Clustering-of-musculoskeletal-radiographs
+# Clustering of musculoskeletal radiographs
+
+The aim of this project is to enable an easy unsupervised classification model for musculoskeletal radiographs by body parts; thus, reducing the manual time spent classifying large amounts of data. For this task we take the MURA dataset released by researchers at Stanford. This dataset has over 40,000 images from over 14,000 studies and has been manually classified by radiologists. We leveraged on various dimensionality reduction techniques like PCA and tSNE to help reduce the high dimensional data into a lower dimensional subspace, which then helped us run clustering techniques like kMeans, GMM and agglomerative to classify the data.
